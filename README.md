@@ -123,9 +123,7 @@ If you find any issues or have suggestions for improving the labs, feel free to:
 
     Submit a Pull Request with your proposed changes.
 
-License
 
-This repository is licensed under the MIT License. Feel free to use, modify, and distribute the content for educational purposes.
 
 
 Contact
