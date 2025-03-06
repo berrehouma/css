@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Display Properties */
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.inline {
+    display: inline;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 10px;
+    width: 150px;
+}
+
+/* Positioning Examples */
+.positioning-examples {
+    position: relative;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    height: 300px;
+    overflow: auto;
+}
+
+.static {
+    position: static;
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.relative {
+    position: relative;
+    background-color: lightyellow;
+    padding: 10px;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: lightseagreen;
+    padding: 10px;
+    top: 50px;
+    right: 20px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: lightsalmon;
+    padding: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.sticky {
+    position: sticky;
+    background-color: lightskyblue;
+    padding: 10px;
+    top: 0;
+}
+
+/* Float Examples */
+.float-examples {
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.float-left {
+    float: left;
+    background-color: lightblue;
+    padding: 10px;
+    width: 45%;
+}
+
+.float-right {
+    float: right;
+    background-color: lightcoral;
+    padding: 10px;
+    width: 45%;
+}
+
+.clear {
+    clear: both;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Final Layout Task */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: lightcoral;
+    padding: 10px;
+    margin-top: 60px; /* To account for the fixed header */
+}
+
+.content {
+    float: right;
+    width: 70%;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 60px; /* To account for the fixed header */
+}
+
+.footer {
+    clear: both;
+    background-color: lightyellow;
+    padding: 10px;
+    text-align: center;
+}
