@@ -3,6 +3,7 @@
     2- install git on localhost    : sudo apt update && sudo apt install git   for linux  or Download and install Git from git-scm.com.
                                                                                              for windows
     3- configure git on localhost 
+        open your shell or CMD on windows 
         git config --global user.name "Your Name"
         git config --global user.email "your.email@example.com"
 
@@ -11,7 +12,8 @@
         sign in from VS code 
 
 
-    5- create a new repository on github.
+    5- create a new repository on github.  and add me as a collaborator (berrehouma.nabil@univ-guelma.dz)
+      
     6- create a folder in your host and openit with VS code
     7-clone the remote repository with git clone "your repository url"
     8- make  modification in local repository,   make commits , and finnaly push to remote repository.
